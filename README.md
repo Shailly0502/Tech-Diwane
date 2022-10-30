@@ -18,4 +18,4 @@ Using rule-based and AI/ML/ICR/ OCR (Optical Character Recognition) capabilities
 
 # Proposed Solution
 
-
+Firstly, a cheque is taken as an input and then different boxes are drawn and then it is sent to OCR model through APIs. Then OCR model returns a list of detections and then useful information is extracted from that list. Then that extracted information is being matched with the existing records of user's bank details and if both information gets match, then further action like processing of amount that is written on cheque is transferred to intented user bank account and database gets updated.
