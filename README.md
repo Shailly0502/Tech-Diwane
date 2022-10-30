@@ -7,7 +7,6 @@ Bank handles large volumes of cheques in the clearing process. The process invol
 # Expected Solution
 
 Using rule-based and AI/ML/ICR/ OCR (Optical Character Recognition) capabilities for automation and doing technical and signature verification of the cheques.
-
 * Automation of the clearing process using AI/ML/ICR/OCR techniques
 * Automatic Data Entry & Technical verification
 * Signature Verification
