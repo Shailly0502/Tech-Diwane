@@ -34,6 +34,8 @@ Please make a note that _Useful information means only that information that is 
 * Extactor module returns a list of vector representations, given a list of image tensors/np arrays.
 * Matcher returns a distance measure given a pair of signatures (where one signature image is the image of payee's signature extracted from input cheque image and other image is the image present in payee's existing records in the database). If both images match, then signature is verified otherwise signature on input cheque is a forgery or fake signature of payee.
 
+_Diagrametic Represention of the working of Signver module_
+![signature verification](https://raw.githubusercontent.com/fastforwardlabs/signver/main/docs/images/signature_pipeline.png)
 _This whole process is known as verification process and is the most crucial part of the whole process. Only after the successful verification, any processes or transactions(as instructed on cheque like transferring of money to the intended user bank account) takes place._
 
 * __After successful cheque processing, the details of the sender gets further updated in the database as per the transaction took place successfully.__
