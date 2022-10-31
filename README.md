@@ -49,4 +49,9 @@ _Please make a note that Useful information here mean that only that information
 
 * __After successful cheque processing, the details of the sender gets further updated in the database as per the transaction took place successfully.__
 
-### Features####
+### Features
+
+* Supports Multilingual _(Hindi,English)_
+* Reduce Human Efforts _(By automating process of verification and data updation after processing)
+* Reduce Processing time _(Machine take less time than humans so it fastens the cheque processing time )
+* Detecting Potential Frauds _(Through verification processing)_
