@@ -1,6 +1,6 @@
-A solution is provided for the given Problem Statement.
+_A solution is provided for the Problem Statement titled as Automated Cheque Processing,in Bank of Baroda Hackathon 2022 hosted on TechGig._
 
-# Problem Statement
+# Provided Problem Statement(Automated Cheque Processing)
 
 Bank handles large volumes of cheques in the clearing process. The process involves many technical verifications including signature verification. Some of these steps are manual and require human intervention to complete the process. The current process requires the high human capital deployment and longer processing time.
 
