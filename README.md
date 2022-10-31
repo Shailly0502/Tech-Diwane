@@ -29,12 +29,10 @@ Please make a note that _Useful information means only that information that is 
 * For verifying the identity of the payee, different extracted information is verified like with the help of ML modules, like:
 
  __Signature Verification__ is done with the help of __signver module__ that contains __sub-modules__ like __cleaner,extractor,matcher. __
-Cleaner module returns a list of cleaned signature images (removal of background lines and text), given a list of signature images.
-Extactor module returns a list of vector representations, given a list of image tensors/np arrays.
-Matcher returns a distance measure given a pair of signatures (where one signature image is the image of payee's signature extracted from input cheque image and other image is the image present in payee's existing records in the database). If both images match, then signature is verified otherwise signature on input cheque is a forgery or fake signature of payee.
-
-
-such that signature is sent to signature verification file and  existing gets matched, then it is considered to be verified user. It includes signature verification(using signver module) and verification of details like 
+ 
+* Cleaner module returns a list of cleaned signature images (removal of background lines and text), given a list of signature images.
+* Extactor module returns a list of vector representations, given a list of image tensors/np arrays.
+* Matcher returns a distance measure given a pair of signatures (where one signature image is the image of payee's signature extracted from input cheque image and other image is the image present in payee's existing records in the database). If both images match, then signature is verified otherwise signature on input cheque is a forgery or fake signature of payee.
 
 _This whole process is known as verification process and is the most crucial part of the whole process. Only after the successful verification, any processes or transactions(as instructed on cheque like transferring of money to the intended user bank account) takes place._
 
