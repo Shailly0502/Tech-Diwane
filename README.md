@@ -48,3 +48,5 @@ _Please make a note that Useful information here mean that only that information
 _This whole process is known as verification process and is the most crucial part of the whole process. Only after the successful verification, any processes or transactions(as instructed on cheque like transferring of money to the intended user bank account) takes place._
 
 * __After successful cheque processing, the details of the sender gets further updated in the database as per the transaction took place successfully.__
+
+## Features
