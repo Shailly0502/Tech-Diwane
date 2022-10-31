@@ -28,7 +28,7 @@ _Please make a note that Useful information here mean that only that information
 
 * After cleaning or extracting useful detection from OCR list, the information of the payee is used to verify with the payee's existing record information in database __so as to verify if payee is genuine or not__. 
 
-* For verifying the identity of the payee, different extracted information is verified like with the help of ML modules, like:
+* For verifying the identity of the payee, Verification of different extracted information takes with the help of ML modules._This whole process is known as __Verification Process__ and is the most crucial part of the whole process._
 
   * __Signature Verification__ is done with the help of __signver module__ that contains __sub-modules__ such that:
  
@@ -45,7 +45,7 @@ _Please make a note that Useful information here mean that only that information
    * Extracted __Payee Name__ is verified by matching payee name present in the database of the extacted account number and extracted payee name.
    * __Amount Verification__ is done to check if account contains sufficient amount such that transaction of mentioned amount could take place in future after successful verification of cheque details because _If sufficient amount is present in account then only transaction will take place._
 
-_This whole process is known as verification process and is the most crucial part of the whole process. Only after the successful verification, any processes or transactions(as instructed on cheque like transferring of money to the intended user bank account) takes place._
+ _Only after the successful verification, any processes or transactions(as instructed on cheque like transferring of money to the intended user bank account) takes place._
 
 * __After successful cheque processing, the details of the sender gets further updated in the database as per the transaction took place successfully.__
 
