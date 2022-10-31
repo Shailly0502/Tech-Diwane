@@ -28,7 +28,7 @@ _Please make a note that Useful information here mean that only that information
 
 * After cleaning or extracting useful detection from OCR list, the information of the payee is used to verify with the payee's existing record information in database __so as to verify if payee is genuine or not__. 
 
-* For verifying the identity of the payee, Verification of different extracted information takes with the help of ML modules._This whole process is known as __Verification Process__ and is the most crucial part of the whole process._
+* For verifying the identity of the payee, Verification of different extracted information takes with the help of ML modules._This process is known as __Verification Process__ and is the most crucial part of the whole process._
 
   * __Signature Verification__ is done with the help of __signver module__ that contains __sub-modules__ such that:
  
