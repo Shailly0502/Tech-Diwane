@@ -30,11 +30,11 @@ Please make a note that _Useful information means only that information that is 
 
   * __Signature Verification__ is done with the help of __signver module__ that contains __sub-modules__ such that:
  
-   * Cleaner module returns a list of cleaned signature images (removal of background lines and text), given a list of signature images.
-   * Extactor module returns a list of vector representations, given a list of image tensors/np arrays.
-   * Matcher returns a distance measure given a pair of signatures (where one signature image is the image of payee's signature extracted from input cheque image and other image is the image present in payee's existing records in the database). _If both images match, then signature is verified otherwise signature on input cheque is a forgery or fake signature of payee._
+    * _Cleaner module_ returns a list of cleaned signature images (removal of background lines and text), given a list of signature images.
+    * _Extactor module_ returns a list of vector representations, given a list of image tensors/np arrays.
+    * _Matcher module_ returns a distance measure given a pair of signatures (where one signature image is the image of payee's signature extracted from input cheque image and other image is the image present in payee's existing records in the database). _If both images match, then signature is verified otherwise signature on input cheque is a forgery or fake signature of payee._
 
-  _Diagrametic Representation of signver module_
+    _Diagrametic Representation of signver module_
 
 ![signature verification](https://raw.githubusercontent.com/fastforwardlabs/signver/main/docs/images/signature_pipeline.png)
 
