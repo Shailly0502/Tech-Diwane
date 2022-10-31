@@ -49,6 +49,10 @@ _Please make a note that Useful information here mean that only that information
 
 * __After successful cheque processing, the details of the sender gets further updated in the database as per the transaction took place successfully.__
 
+![cheque verification](https://raw.githubusercontent.com/fastforwardlabs/signver/main/docs/images/signature_pipeline.png)
+
+
+
 ### Features
 
 * Supports Multilingual _(Hindi,English)_
