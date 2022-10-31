@@ -22,7 +22,7 @@ Using rule-based and AI/ML/ICR/ OCR (Optical Character Recognition) capabilities
 * With the help of __Azure APIs__ these small different parts of the scanned images are sent to __OCR(Optical Character Recognition)__ for  processing information written in these small images.
 * OCR model returns a list of detections and then among that list, there are both useful information and additional informations. Among complete list, detections of only required information are considered(this is  known as __text cleaning or extracting of useful information__).
 
-Please make a note that _Useful information means only that information that is relevant or required for cheque verification and processing._
+_Please make a note that Useful information here mean that only that information that is relevant or required for cheque verification and processing._
 
 * After cleaning or extracting useful detection from OCR list, the information of the payee is used to match with the payee's existing record information in database __so as to verify if payee is genuine or not__. 
 
