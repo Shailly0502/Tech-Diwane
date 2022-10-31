@@ -1,10 +1,10 @@
 ### _A solution is provided for the Problem Statement titled as Automated Cheque Processing,in Bank of Baroda Hackathon 2022 hosted on TechGig._
 
-# Provided Problem Statement(Automated Cheque Processing)
+## Provided Problem Statement(Automated Cheque Processing)
 
 Bank handles large volumes of cheques in the clearing process. The process involves many technical verifications including signature verification. Some of these steps are manual and require human intervention to complete the process. The current process requires the high human capital deployment and longer processing time.
 
-# Expected Solution
+## Expected Solution
 
 Using rule-based and AI/ML/ICR/ OCR (Optical Character Recognition) capabilities for automation and doing technical and signature verification of the cheques.
 * Automation of the clearing process using AI/ML/ICR/OCR techniques
@@ -15,9 +15,9 @@ Using rule-based and AI/ML/ICR/ OCR (Optical Character Recognition) capabilities
 * Reduce Processing time
 * Detecting Potential Frauds
 
-# Proposed Solution
+## Proposed Solution
 
-## Workflow
+### Workflow
 
 * A cheque image is taken as an input & scanned. Then this scanned image is transformed into many different small part where every part contain seperate useful information like signature,amount,account number,payee name,bank name,etc. 
 * These parts that extracted by drawing boxes on those parts of the scanned cheque image that contain these information with help of __OpenCV__ and __Geometry.__
@@ -49,4 +49,4 @@ _This whole process is known as verification process and is the most crucial par
 
 * __After successful cheque processing, the details of the sender gets further updated in the database as per the transaction took place successfully.__
 
-## Features
+### Features####
